@@ -5,14 +5,15 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+    <!-- <img alt="Canadian Flag" class="logo" src="@/assets/Canadian_Flag.png" width="495" height="246" />
+    -->
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Proof of Citizenship Timeline" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/contact">Contact</RouterLink>
       </nav>
     </div>
   </header>
